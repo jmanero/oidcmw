@@ -1,0 +1,15 @@
+---
+displayName: OIDC Authentication Middleware
+type: middleware
+
+summary: |
+  Authenticate incoming requests using OIDC Identity Tokens in Cookies. Redirect requests
+  to a login page if they do not contain a valid identity Token, or if the token can not
+  be authenticated by an available key.
+
+import: github.com/jmanero/oidcmw
+
+testData:
+  Headers: {
+    Cookie: treafik.jwt-bearer=deadbeef.034da9e.00000000
+  }
