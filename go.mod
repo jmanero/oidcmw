@@ -1,4 +1,4 @@
-module github.com/jmanero/traefik-jwtauth
+module github.com/jmanero/oidcmw
 
 go 1.18
 
